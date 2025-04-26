@@ -1,3 +1,4 @@
+from checkwork import markTaskAsCompleted
 def main():
     taskList = []
     while True:
