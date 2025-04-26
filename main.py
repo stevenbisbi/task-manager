@@ -1,3 +1,5 @@
+from taskList import listAllTasks
+
 def main():
     taskList = []
     while True:
