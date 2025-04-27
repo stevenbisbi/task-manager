@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 from checkwork import markTaskAsCompleted
+=======
+from Delete import deleteTask
+
+from taskList import listAllTasks
+from createTask import create_Task
+
+>>>>>>> d06eef9c0b3a187b355a40effe99405e1167e073
 def main():
     taskList = []
     while True:
@@ -11,11 +19,9 @@ def main():
 
         choice = input("Selecciona una opción: ")
 
-        if choice == "1":
-            description = input("Ingrese la descripción de la tarea: ")
-            createTask(taskList, description)
-            print("Tarea creada exitosamente.")
-        
+        if choice == "1":            
+            create_Task(taskList)
+                   
         elif choice == "2":
             listAllTasks(taskList)
         
