@@ -1,8 +1,12 @@
+<<<<<<< HEAD
+from checkwork import markTaskAsCompleted
+=======
 from Delete import deleteTask
 
 from taskList import listAllTasks
 from createTask import create_Task
 
+>>>>>>> d06eef9c0b3a187b355a40effe99405e1167e073
 def main():
     taskList = []
     while True:
