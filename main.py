@@ -1,5 +1,8 @@
 from Delete import deleteTask
 
+from taskList import listAllTasks
+from createTask import create_Task
+
 def main():
     taskList = []
     while True:
@@ -12,11 +15,9 @@ def main():
 
         choice = input("Selecciona una opción: ")
 
-        if choice == "1":
-            description = input("Ingrese la descripción de la tarea: ")
-            createTask(taskList, description)
-            print("Tarea creada exitosamente.")
-        
+        if choice == "1":            
+            create_Task(taskList)
+                   
         elif choice == "2":
             listAllTasks(taskList)
         
