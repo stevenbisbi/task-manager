@@ -1,6 +1,7 @@
+from Delete import deleteTask
+
 from taskList import listAllTasks
 from createTask import create_Task
-
 
 def main():
     taskList = []
