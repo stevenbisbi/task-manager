@@ -1,3 +1,5 @@
+from Delete import deleteTask
+
 def main():
     taskList = []
     while True:
